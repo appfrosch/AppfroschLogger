@@ -1,3 +1,3 @@
 # AppfroschLogger
 
-A description of this package.
+A package for logging.
