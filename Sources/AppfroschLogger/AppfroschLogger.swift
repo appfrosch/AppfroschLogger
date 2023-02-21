@@ -30,6 +30,6 @@ public class AppfroschLogger {
         }
         let file = String(file.split(separator: "/").last ?? "")
 
-        os_log("*** %{public}s/%{public}s, line %d -- %s", log: osLog, type: type, file, function, line, message)
+        os_log("🐸🐸🐸 %{public}s/%{public}s, line %d -- %s\n🐸🐸🐸", log: osLog, type: type, file, function, line, message)
     }
 }
